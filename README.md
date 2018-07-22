@@ -30,3 +30,8 @@ Sun Yat-sen University Summer Vacation Project
 要求 3:把对抗噪声看作一个向量，计算它的无穷范数和二范数，作为噪声强度的衡量。探讨随着噪声强度增大，神经网络在对抗样本上的正确率如何变化。
 
 参考资料：
+
+Intriguing properties of neural networks. https://arxiv.org/abs/1312.6199
+
+Explaining and Harnessing Adversarial Examples. https://arxiv.org/abs/1412.6572
+
