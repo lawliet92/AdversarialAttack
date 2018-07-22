@@ -9,6 +9,8 @@ Sun Yat-sen University Summer Vacation Project
 
 对抗攻击：产生对抗样本，并输入神经网络，使之严重出错。
 
+![alt text](https://github.com/lawliet92/AdversarialAttack/blob/master/advsample.jpeg)
+
 提示：
 
 步骤 1：下载minist数据集。
