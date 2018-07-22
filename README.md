@@ -31,7 +31,12 @@ Sun Yat-sen University Summer Vacation Project
 
 参考资料：
 
+一些预训练的pytorch模型 https://github.com/aaron-xichen/pytorch-playground
+
+一个pytorch minist例子 https://github.com/floydhub/mnist
+
 Intriguing properties of neural networks. https://arxiv.org/abs/1312.6199
 
 Explaining and Harnessing Adversarial Examples. https://arxiv.org/abs/1412.6572
 
+DeepFool: a simple and accurate method to fool deep neural networks https://arxiv.org/abs/1511.04599 https://github.com/LTS4/DeepFool
