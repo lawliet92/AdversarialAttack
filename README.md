@@ -1,5 +1,6 @@
 # AdversarialAttack
 Sun Yat-sen University Summer Vacation Project
+
 中山大学暑期项目
 
 题目描述：产生minist数据集的对抗样本（adversarial example），并对神经网络进行对抗攻击（adversarial attack）。
@@ -9,6 +10,7 @@ Sun Yat-sen University Summer Vacation Project
 对抗攻击：产生对抗样本，并输入神经网络，使之严重出错。
 
 提示：
+
 步骤 1：下载minist数据集。
 
 步骤 2：取得一个已经在minist数据集上完成训练的神经网络；或者，自行在minist数据的训练集上训练一个神经网络。该神经网络在minist数据测试集上准确率要在90%以上。
@@ -22,4 +24,9 @@ Sun Yat-sen University Summer Vacation Project
 提交材料：实验报告一份。
 
 要求 1：实验报告包括标题、实验方法、实验结果、结论、参考文献、附录。
+
 要求 2：实验结果包括罗列图片例子：原始样本图片，对抗样本图片，它们各自的分类概率向量，以及对抗噪声（对抗噪声由对抗样本减去原始样本取绝对值得到，可乘以合适的倍数后转换成RGB图片来可视化，对抗噪声能可视化成一张图片）
+
+要求 3:把对抗噪声看作一个向量，计算它的无穷范数和二范数，作为噪声强度的衡量。探讨随着噪声强度增大，神经网络在对抗样本上的正确率如何变化。
+
+参考资料：
