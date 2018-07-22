@@ -13,7 +13,7 @@ Sun Yat-sen University Summer Vacation Project
 
 提示：
 
-步骤 1：下载minist数据集。
+步骤 1：下载minist数据集。 http://yann.lecun.com/exdb/mnist/
 
 步骤 2：取得一个已经在minist数据集上完成训练的神经网络；或者，自行在minist数据的训练集上训练一个神经网络。该神经网络在minist数据测试集上准确率要在90%以上。
 
