@@ -31,6 +31,7 @@ Sun Yat-sen University Summer Vacation Project
 
 要求 3:把对抗噪声看作一个向量，计算它的无穷范数和二范数，作为噪声强度的衡量。探讨随着噪声强度增大，神经网络在对抗样本上的正确率如何变化。
 
+不限定必须使用pytorch，也不限定必须使用参考资料中的方法。
 参考资料：
 
 一些预训练的pytorch模型 https://github.com/aaron-xichen/pytorch-playground
