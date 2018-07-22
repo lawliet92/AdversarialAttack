@@ -39,8 +39,8 @@ Sun Yat-sen University Summer Vacation Project
 
 Intriguing properties of neural networks. https://arxiv.org/abs/1312.6199
 
-不限定必须使用pytorch，也不限定必须使用参考资料中的方法。
-
 Explaining and Harnessing Adversarial Examples. https://arxiv.org/abs/1412.6572
 
 DeepFool: a simple and accurate method to fool deep neural networks https://arxiv.org/abs/1511.04599 https://github.com/LTS4/DeepFool
+
+不限定必须使用pytorch，也不限定必须使用参考资料中的方法。
