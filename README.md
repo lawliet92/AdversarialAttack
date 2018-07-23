@@ -63,3 +63,8 @@ Explaining and Harnessing Adversarial Examples. https://arxiv.org/abs/1412.6572
 
 DeepFool: a simple and accurate method to fool deep neural networks https://arxiv.org/abs/1511.04599 https://github.com/LTS4/DeepFool
 
+pytorch 对抗攻击代码 https://github.com/akshaychawla/Adversarial-Examples-in-PyTorch 
+
+pytorch 对抗攻击代码 https://github.com/rwightman/pytorch-nips2017-attack-example 
+
+pytorch 对抗攻击代码 https://github.com/utkuozbulak/pytorch-cnn-adversarial-attacks 
