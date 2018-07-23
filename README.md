@@ -9,15 +9,27 @@ Sun Yat-sen University Summer Vacation Project
 
 步骤 1：下载minist数据集。 http://yann.lecun.com/exdb/mnist/
 
-步骤 2：取得一个已经在minist数据集上完成训练的神经网络；或者，自行在minist数据的训练集上训练一个神经网络。该神经网络在minist数据测试集上准确率要在90%以上。
+步骤 2：在minist数据的训练集上训练一个卷积神经网络。该神经网络要求使用卷积层，并在minist数据测试集上准确率要在90%以上。
 
-任务二（100分）：高级任务，适合已入门者。产生minist数据集的对抗样本（adversarial example），并对神经网络进行对抗攻击（adversarial attack）。
+提交材料：实验报告一份。
+
+要求 1：实验报告包括标题、实验方法、实验结果、结论、参考文献、附录。
+
+要求 2：以迭代次数iteration或者epoch为横坐标，以loss为纵坐标，绘制训练期间的loss曲线，和测试集上的loss曲线。分析讨论你的模型是否存在过拟合和欠拟合现象，如何改进。分析讨论能否根据该曲线决定何时停止训练，如何决定。
+
+要求 3：统计测试集中神经网络最频繁犯的错误是哪些，如将1误分类为7，并放置相应的例子，和分类概率向量。提出构思如何改进模型使得准确率提高。
+
+任务二（100分）：高级任务，适合已入门者。产生minist数据集的对抗样本（adversarial example），并对神经网络进行对抗攻击（adversarial attack）。任务二不限定必须使用pytorch。
 
 对抗样本：由原始样本经过细微变化得到，人眼几乎不能察觉对抗样本和原始样本之间的差异，对抗样本的分类标签在人眼看来也与原始样本一致。但神经网络面对对抗样本会严重出错。
 
 对抗攻击：产生对抗样本，并输入神经网络，使之严重出错。
 
 ![alt text](https://github.com/lawliet92/AdversarialAttack/blob/master/advsample.jpeg)
+
+步骤 1：下载minist数据集。 http://yann.lecun.com/exdb/mnist/
+
+步骤 2：取得一个已经在minist数据集上完成训练的神经网络；或者，自行在minist数据的训练集上训练一个神经网络。该神经网络在minist数据测试集上准确率要在90%以上。
 
 步骤 3：确保步骤2中的神经网络能够进行正确的前向计算和后向计算（梯度传播）。可在minist数据的测试集中选择多张图片进行测试，输出每张图片的分类结果即类别概率向量。
 
@@ -45,4 +57,3 @@ Explaining and Harnessing Adversarial Examples. https://arxiv.org/abs/1412.6572
 
 DeepFool: a simple and accurate method to fool deep neural networks https://arxiv.org/abs/1511.04599 https://github.com/LTS4/DeepFool
 
-不限定必须使用pytorch，也不限定必须使用参考资料中的方法。
