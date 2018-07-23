@@ -17,9 +17,15 @@ Sun Yat-sen University Summer Vacation Project
 
 要求 2：以迭代次数iteration或者epoch为横坐标，以loss为纵坐标，绘制训练期间的loss曲线，和测试集上的loss曲线。分析讨论你的模型是否存在过拟合和欠拟合现象，如何改进。分析讨论能否根据该曲线决定何时停止训练，如何决定。
 
-要求 3：统计测试集中神经网络最频繁犯的错误是哪些，如将1误分类为7，并放置相应的例子，和分类概率向量。提出构思如何改进模型使得准确率提高。
+要求 3：统计测试集中神经网络最频繁犯的错误是哪些，如把1误分类为7，并放置相应的例子，和分类概率向量。提出构思如何改进模型使得准确率提高。
 
-任务二（100分）：高级任务，适合已入门者。产生minist数据集的对抗样本（adversarial example），并对神经网络进行对抗攻击（adversarial attack）。任务二不限定必须使用pytorch。
+参考资料：
+
+一些预训练的pytorch模型 https://github.com/aaron-xichen/pytorch-playground
+
+一个pytorch minist例子 https://github.com/floydhub/mnist
+
+任务二（100分）：高级任务，适合已有经验者。产生minist数据集的对抗样本（adversarial example），并对神经网络进行对抗攻击（adversarial attack）。任务二不限定必须使用pytorch。
 
 对抗样本：由原始样本经过细微变化得到，人眼几乎不能察觉对抗样本和原始样本之间的差异，对抗样本的分类标签在人眼看来也与原始样本一致。但神经网络面对对抗样本会严重出错。
 
