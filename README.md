@@ -3,7 +3,7 @@ Sun Yat-sen University Summer Vacation Project
 
 中山大学暑期项目
 
-任务一（70分）： 基础任务，适合无经验者。使用pytorch在minist数据集上训练一个卷积神经网络，要求在测试集上的正确率在90%以上。
+任务一（60分）： 基础任务，适合无经验者。使用pytorch在minist数据集上训练一个卷积神经网络，要求在测试集上的正确率在90%以上。
 
 提示：
 
