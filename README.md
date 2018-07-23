@@ -1,7 +1,7 @@
 # AdversarialAttack
 Sun Yat-sen University Summer Vacation Project
 
-中山大学暑期项目
+中山大学暑期项目 （两个任务二选一，完成任务一后有余力可继续完成任务二）
 
 任务一（60分）： 基础任务，适合无经验者。使用pytorch在minist数据集上训练一个卷积神经网络，要求在测试集上的正确率在90%以上。
 
@@ -24,6 +24,7 @@ Sun Yat-sen University Summer Vacation Project
 一些预训练的pytorch模型 https://github.com/aaron-xichen/pytorch-playground
 
 一个pytorch minist例子 https://github.com/floydhub/mnist
+
 
 任务二（100分）：高级任务，适合已有经验者。产生minist数据集的对抗样本（adversarial example），并对神经网络进行对抗攻击（adversarial attack）。任务二不限定必须使用pytorch。
 
