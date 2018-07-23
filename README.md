@@ -3,19 +3,21 @@ Sun Yat-sen University Summer Vacation Project
 
 中山大学暑期项目
 
-题目描述：产生minist数据集的对抗样本（adversarial example），并对神经网络进行对抗攻击（adversarial attack）。
-
-对抗样本：由原始样本经过细微变化得到，人眼几乎不能察觉对抗样本和原始样本之间的差异，对抗样本的分类标签在人眼看来也与原始样本一致。但神经网络面对对抗样本会严重出错。
-
-对抗攻击：产生对抗样本，并输入神经网络，使之严重出错。
-
-![alt text](https://github.com/lawliet92/AdversarialAttack/blob/master/advsample.jpeg)
+任务一（70分）： 基础任务，适合无经验者。使用pytorch在minist数据集上训练一个卷积神经网络，要求在测试集上的正确率在90%以上。
 
 提示：
 
 步骤 1：下载minist数据集。 http://yann.lecun.com/exdb/mnist/
 
 步骤 2：取得一个已经在minist数据集上完成训练的神经网络；或者，自行在minist数据的训练集上训练一个神经网络。该神经网络在minist数据测试集上准确率要在90%以上。
+
+任务二（100分）：高级任务，适合已入门者。产生minist数据集的对抗样本（adversarial example），并对神经网络进行对抗攻击（adversarial attack）。
+
+对抗样本：由原始样本经过细微变化得到，人眼几乎不能察觉对抗样本和原始样本之间的差异，对抗样本的分类标签在人眼看来也与原始样本一致。但神经网络面对对抗样本会严重出错。
+
+对抗攻击：产生对抗样本，并输入神经网络，使之严重出错。
+
+![alt text](https://github.com/lawliet92/AdversarialAttack/blob/master/advsample.jpeg)
 
 步骤 3：确保步骤2中的神经网络能够进行正确的前向计算和后向计算（梯度传播）。可在minist数据的测试集中选择多张图片进行测试，输出每张图片的分类结果即类别概率向量。
 
